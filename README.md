@@ -90,12 +90,12 @@ Content-Type: application/json
 
 ```json
 {
-  "restaurant_id": "643a9a1f2f1234567890abcd",
-  "customer_name": "Alice",
+  "restaurant_id": "6808ca3a9760e22fc6dc75c4",
+  "customer_name": "Lok",
   "order_type": "DINE_IN",
   "items": [
-    { "menu_item_id": "643a9b2f1d1234567890efgh", "quantity": 2 },
-    { "menu_item_id": "643a9b2f1d1234567890ijkl", "quantity": 1 }
+    { "menu_item_id": "6808ca3a9760e22fc6dc75c8", "quantity": 3 },
+    { "menu_item_id": "6808ca3a9760e22fc6dc75c6", "quantity": 1 }
   ]
 }
 ```
@@ -104,15 +104,23 @@ Content-Type: application/json
 
 ```json
 {
-  "order_id": "66270ff2bd23da4a6c0df20c",
-  "customer_name": "Alice",
-  "order_type": "DINE_IN",
-  "created_at": "2025-04-23T10:34:10.021Z",
-  "items": [
-    { "name": "Margherita Pizza", "quantity": 2, "total": 600 },
-    { "name": "Farmhouse Pizza", "quantity": 1, "total": 350 }
-  ],
-  "total_price": 950
+    "order_id": "6808cadc9760e22fc6dc75cc",
+    "customer_name": "Lok",
+    "order_type": "DINE_IN",
+    "created_at": "2025-04-23T11:11:24.413Z",
+    "items": [
+        {
+            "name": "Garlic Bread",
+            "quantity": 3,
+            "total": 450
+        },
+        {
+            "name": "Margherita Pizza",
+            "quantity": 1,
+            "total": 300
+        }
+    ],
+    "total_price": 750
 }
 ```
 
@@ -129,15 +137,23 @@ GET /orders/:id
 
 ```json
 {
-  "order_id": "66270ff2bd23da4a6c0df20c",
-  "customer_name": "Alice",
-  "order_type": "DINE_IN",
-  "created_at": "2025-04-23T10:34:10.021Z",
-  "items": [
-    { "name": "Margherita Pizza", "quantity": 2, "total": 600 },
-    { "name": "Farmhouse Pizza", "quantity": 1, "total": 350 }
-  ],
-  "total_price": 950
+    "order_id": "6808cadc9760e22fc6dc75cc",
+    "customer_name": "Lok",
+    "order_type": "DINE_IN",
+    "created_at": "2025-04-23T11:11:24.413Z",
+    "items": [
+        {
+            "name": "Garlic Bread",
+            "quantity": 3,
+            "total": 450
+        },
+        {
+            "name": "Margherita Pizza",
+            "quantity": 1,
+            "total": 300
+        }
+    ],
+    "total_price": 750
 }
 ```
 
