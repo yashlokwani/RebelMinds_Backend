@@ -38,7 +38,7 @@ A simple backend service for managing restaurant orders using Node.js, Express, 
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/restaurant-pos-backend.git
+git clone https://github.com/yashlokwani/restaurant-pos-backend.git
 cd restaurant-pos-backend
 ```
 
